@@ -1,0 +1,36 @@
+/* Price List */
+
+.container {
+    margin: auto;
+    .cardContainer {
+         border-radius: 8px;
+         margin-bottom: 20px;
+            h2 {
+                color: #952d3e;
+            }
+            .card {
+                background: #fff;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 0;
+                padding: 15px;
+            
+                ul li {
+                    border-bottom: 1px solid rgba(152, 152, 152, .2);
+                    padding: 10px 5px;
+                    &:hover {
+                            background-color: #f1f1f1;
+                            cursor: pointer;
+                        }
+                    span{
+                    float: right;
+                    font-weight: bold;
+                }
+                }
+                &-title {
+                    cursor: pointer;
+                }
+            }
+    }
+}
+
+// https://codesandbox.io/p/sandbox/react-collapsible-component-fvkql?file=%2Fsrc%2FCollapsible.js%3A27%2C29
