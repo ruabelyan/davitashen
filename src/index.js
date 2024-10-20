@@ -52,7 +52,7 @@ i18n
           "read_more_key": "Read more",
           "phone_key": "Phone",
           "phone_number_key": "Phone number",
-          "specialized_departments_key": "Specialized Departments of the Organization",
+          "specialized_Բաժիններ_key": "Specialized Բաժիններ of the Organization",
           "cabinet_kka_key": "KKA Cabinet",
           "ophthalmology_cabinet_key": "Ophthalmology Cabinet",
           "endocrinology_cabinet_key": "Endocrinology Cabinet",
@@ -80,7 +80,7 @@ i18n
           "urology_cabinet_key": "Urology Cabinet",
           "dentistry_cabinet_key": "Dentistry Cabinet",
           "health_care_facility_key": "Health Care Facility",
-          "make_appointment_key": "Make Appointment",
+          "make_appointment_key": "Կապ",
           "founder_key": "Founder",
           "dentist_key": "Dentist",
           "neurologist_key": "Neurologist",
@@ -127,7 +127,7 @@ i18n
       hy: {
         translation: {
           "services_description_key": "Ծառայությունների բնութագիրը",
-          "departments_key": "Բաժանմունքներ",
+          "Բաժիններ_key": "Բաժանմունքներ",
           "home_key": "Գլխավոր",
           "department_key": "Բաժանմունքներ",
           "all_department_key": "Բաժանմունքներ",
@@ -161,7 +161,7 @@ i18n
           "world_awards_key": "Համաշխարհային պարգևներ",
           "read_more_key": "Կարդալ ավելին",
           "phone_number_key": "Հեռախոսահամար",
-          "specialized_departments_key": "Կազմակերպության նեղ մասնագիտական ստորաբաժանումներ",
+          "specialized_Բաժիններ_key": "Կազմակերպության նեղ մասնագիտական ստորաբաժանումներ",
           "cabinet_kka_key": "ՔԿԱ կաբինետ",
           "ophthalmology_cabinet_key": "Ակնաբուժական կաբինետ",
           "endocrinology_cabinet_key": "Ներզատաբանական կաբինետ",
@@ -266,7 +266,7 @@ i18n
           "world_awards_key": "Мировые награды",
           "read_more_key": "Подробнее",
           "phone_number_key": "Номер телефона",
-          "specialized_departments_key": "Узкоспециализированные отделения организации",
+          "specialized_Բաժիններ_key": "Узкоспециализированные отделения организации",
           "cabinet_kka_key": "Кабинет ККА",
           "ophthalmology_cabinet_key": "Офтальмологический кабинет",
           "endocrinology_cabinet_key": "Эндокринологический кабинет",
@@ -355,5 +355,5 @@ ReactDOM.render(
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// or send to an analytics endpoint. Ավելին: https://bit.ly/CRA-vitals
 reportWebVitals();

@@ -12,7 +12,7 @@ const HomeFourAppoinment = () => {
                   <div className="h4appoinment-wrapper">
                      <div className="about-title mb-50">
                         <h5 className="pink-color">Make An Appointment</h5>
-                        <h1>Get An Appointment <br/> For Get Release</h1>
+                        <h1>Get An Appointment <br /> For Get Release</h1>
                      </div>
                      <form className="h4appoinment-form mb-15">
                         <div className="row">
@@ -25,7 +25,7 @@ const HomeFourAppoinment = () => {
                         </div>
                      </form>
                      <div className="h4appoinment-button">
-                        <Link to="/contact" className="primary_btn btn-icon ml-0"  style={{animationDelay:'0.6s'}} tabIndex="0"><span>+</span>Make Appointment</Link>
+                        <Link to="/contact" className="primary_btn btn-icon ml-0" style={{ animationDelay: '0.6s' }} tabIndex="0"><span>+</span>Կապ</Link>
                      </div>
                   </div>
                </div>

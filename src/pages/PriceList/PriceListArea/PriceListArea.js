@@ -54,7 +54,7 @@ const PriceListArea = () => {
          </div>
 
          {/* Filtered price list data */}
-         {filteredData.map((item, key) => {
+         {/* {filteredData.map((item, key) => {
             const isExpanded = expandedItems[key]; // Get the expanded state for the current item
             const currentHeight = isExpanded ? (refs.current[key]?.clientHeight || "auto") : 0; // Dynamically get height or set to 0
 
@@ -62,11 +62,10 @@ const PriceListArea = () => {
                <div key={key} className="cardContainer">
                   <div
                      className={`list-group-item ${isExpanded ? "is-expanded" : ""}`}
-                     onClick={() => handleToggle(key)} // Pass the item key to toggle
+                     onClick={() => handleToggle(key)} 
                      style={{ cursor: 'pointer' }}
                   >
                      <div className="card-title">
-                        {/* Render button if label is an empty string */}
                         {item.label ? (
                            <h2>{item.label}</h2>
                         ) : (
@@ -84,16 +83,12 @@ const PriceListArea = () => {
                      >
                         <div
                            className="card-body"
-                           ref={el => refs.current[key] = el} // Store ref for each item
                            style={{ wordWrap: 'break-word' }}
                         >
-                           {/* Content of the expanded section */}
-                           {item.description || 'No description available'}
                         </div>
                      </div>
                   </div>
 
-                  {/* Render children */}
                   {item.childs?.map((child, index) => {
                      const childIsExpanded = expandedItems[`${key}-${index}`]; // Check if child is expanded
 
@@ -101,7 +96,6 @@ const PriceListArea = () => {
                         <div key={index} className="card">
                            <div style={{ display: 'flex', cursor: 'pointer', justifyContent: 'space-between' }} onClick={() => handleToggle(`${key}-${index}`)}>
                               <h4 className="card-title">
-                                 {/* Check if child label is empty and show heading instead */}
                                  {child.label ? child.label : (
                                     <h3>Ենթավերնագիր</h3>
                                  )}
@@ -130,7 +124,7 @@ const PriceListArea = () => {
                   })}
                </div>
             );
-         })}
+         })} */}
 
          {/* Display a message if no results are found */}
          {filteredData.length === 0 && (

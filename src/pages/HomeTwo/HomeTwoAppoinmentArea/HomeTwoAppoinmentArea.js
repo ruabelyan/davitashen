@@ -25,10 +25,10 @@ const HomeTwoAppoinmentArea = () => {
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                        <div className="appoinment-form-box appoinment-form-box-option d-flex mb-40">
                                           <div className="appoint-ment-icon">
-                                             <img src="img/icon/caregive-option-icon-2.png" alt=""/>
+                                             <img src="img/icon/caregive-option-icon-2.png" alt="" />
                                           </div>
                                           <form className="appointment-form-2" action="#">
-                                             <label htmlFor="input">select your services</label>
+                                             <label htmlFor="input">select yԱյլ Ծառայություններ</label>
                                              <select name="lc" id="lc" className="postform">
                                                 <option defaultValue="-1">Choose A Service</option>
                                                 <option className="level-0" defaultValue="36">Chicago, United States</option>
@@ -42,7 +42,7 @@ const HomeTwoAppoinmentArea = () => {
 
                                     <div className="col-xl-6 col-lg-12">
                                        <div className="appoint-button">
-                                          <Link to="/contact" className="primary_btn green-bg-btn">Make Appointment</Link>
+                                          <Link to="/contact" className="primary_btn green-bg-btn">Կապ</Link>
                                        </div>
                                     </div>
                                  </div>
@@ -50,7 +50,7 @@ const HomeTwoAppoinmentArea = () => {
                            </div>
                            <div className="col-xl-4">
                               <div className="appoinment-right f-right">
-                                 <img src="img/appoinment/appoinment-right-img.jpg" alt=""/>
+                                 <img src="img/appoinment/appoinment-right-img.jpg" alt="" />
                               </div>
                            </div>
                         </div>

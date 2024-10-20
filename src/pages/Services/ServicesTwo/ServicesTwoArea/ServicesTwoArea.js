@@ -11,14 +11,14 @@ const ServicesTwoArea = () => {
                   <div className="col-xl-7 col-lg-8 col-md-12">
                      <div className="section-title pos-rel mb-75">
                         <div className="section-icon">
-                           <img className="section-back-icon back-icon-left" src="img/section/section-back-icon.png" alt=""/>
+                           <img className="section-back-icon back-icon-left" src="img/section/section-back-icon.png" alt="" />
                         </div>
                         <div className="section-text pos-rel">
-                           <h5>Departments</h5>
+                           <h5>Բաժիններ</h5>
                            <h1>Managed Your Heathcare Services</h1>
                         </div>
                         <div className="section-line pos-rel">
-                           <img src="img/shape/section-title-line.png" alt=""/>
+                           <img src="img/shape/section-title-line.png" alt="" />
                         </div>
                      </div>
                   </div>
@@ -32,7 +32,7 @@ const ServicesTwoArea = () => {
                <div className="row">
 
                   <ServicesTwoSingleItem image="1" title="Body Surgery" />
-                  <ServicesTwoSingleItem image="2" title="Neurology Sargery" />
+                  <ServicesTwoSingleItem image="2" title="dddd" />
                   <ServicesTwoSingleItem image="3" title="Blood Cancer" />
                   <ServicesTwoSingleItem image="4" title="Family Care" />
                   <ServicesTwoSingleItem image="5" title="Eye Care" />

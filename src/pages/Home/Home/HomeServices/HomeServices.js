@@ -15,7 +15,7 @@ const HomeServices = () => {
                            <img className="section-back-icon" src="img/section/section-back-icon.png" alt="" />
                         </div>
                         <div className="section-text pos-rel home_ser_title">
-                           <h1>{t('departments_key')}</h1>
+                           <h1>{t('Բաժիններ_key')}</h1>
                         </div>
                         <div className="section-line pos-rel">
                            <img src="img/shape/section-title-line.png" alt="" />

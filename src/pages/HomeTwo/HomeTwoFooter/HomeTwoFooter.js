@@ -10,18 +10,18 @@ const HomeTwoFooter = () => {
                      <div className="row align-items-center">
                         <div className="col-xl-4 col-lg-4 col-md-4">
                            <div className="footer-logo-2">
-                              <img src="img/logo/logo-2.png" alt="" />
+                              <img style={{ borderRadius: '10px', width: '200px', height: '70px' }} src="img/logo/logo.png" alt="" />
                            </div>
                         </div>
                         <div className="col-xl-2 col-lg-3 d-none d-lg-block d-xl-block">
-                           <div className="footer-subscribe-title">
+                           {/* <div className="footer-subscribe-title">
                               <span>Subscribe to Our Newsletter</span>
-                           </div>
+                           </div> */}
                         </div>
                         <div className="col-xl-6 col-lg-5 col-md-8">
                            <form className="footer-newsletter" action="#">
-                              <input type="text" placeholder="Your Email Address...." />
-                              <button className="primary_btn">subscribe</button>
+                              <input type="text" placeholder="Ձեր Էլ հասցեն...." />
+                              <button className="primary_btn">Գրանցվել</button>
                            </form>
                         </div>
                      </div>
@@ -36,8 +36,8 @@ const HomeTwoFooter = () => {
                                        <img src="img/icon/footer-co-icon-1.png" alt="" />
                                     </div>
                                     <div className="footer-co-content">
-                                       <span>Mon to Fri : 08h30 - 18h00</span>
-                                       <h4>+898 68679 575 09</h4>
+                                       {/* <span>Mon to Fri : 08h30 - 18h00</span> */}
+                                       <h4>010368241</h4>
                                     </div>
                                  </div>
                                  <div className="f-contact-info-box fix mb-30">
@@ -45,11 +45,11 @@ const HomeTwoFooter = () => {
                                        <img src="img/icon/footer-co-icon-2.png" alt="" />
                                     </div>
                                     <div className="footer-co-content">
-                                       <span>do you have a question?</span>
-                                       <h4>info@gmail.com</h4>
+                                       {/* <span>do you have a question?</span> */}
+                                       <h4>pol.20@mail.ru</h4>
                                     </div>
                                  </div>
-                                 <div className="f-contact-info-box fix mb-30">
+                                 {/* <div className="f-contact-info-box fix mb-30">
                                     <div className="footer-co-icon f-left">
                                        <img src="img/icon/footer-co-icon-2.png" alt="" />
                                     </div>
@@ -63,29 +63,23 @@ const HomeTwoFooter = () => {
                                           <li><a href="#"><i className="fab fa-twitter"></i></a></li>
                                        </ul>
                                     </div>
-                                 </div>
+                                 </div> */}
                               </div>
                            </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-md-6">
                            <div className="footer-widget mb-40">
                               <div className="footer-title">
-                                 <h3>Departments</h3>
+                                 <h3>Բաժիններ</h3>
                               </div>
                               <div className="footer-menu footer-menu-2 fix">
                                  <ul>
-                                    <li><Link to="/servicesDetails">Surgery and Radiology</Link></li>
-                                    <li><Link to="/servicesDetails">Departments</Link></li>
-                                    <li><Link to="/servicesDetails">Family Medicine</Link></li>
-                                    <li><Link to="/doctors">Our Doctors</Link></li>
-                                    <li><Link to="/servicesDetails">Women’s Health</Link></li>
-                                    <li><Link to="/blogs">News</Link></li>
-                                    <li><Link to="/servicesDetails">Optician</Link></li>
-                                    <li><Link to="/shop">Shop</Link></li>
-                                    <li><Link to="/servicesDetails">Pediatrics</Link></li>
-                                    <li><Link to="/contact">Contact Us</Link></li>
-                                    <li><Link to="/servicesDetails">Dermatology</Link></li>
-                                    <li><Link to="/contact">Book an Appointment</Link></li>
+                                    <li><Link to="/">Գլխավոր</Link></li>
+                                    <li><Link to="/services">Բաժանմունքներ</Link></li>
+                                    <li><Link to="/doctors">Բժիշկներ</Link></li>
+                                    <li><Link to="/contact">Կապ մեզ հետ</Link></li>
+                                    <li><Link to="/about">Մեր մասին</Link></li>
+                                    <li><Link to="/pricelist">Գնացուցակ</Link></li>
                                  </ul>
                               </div>
                            </div>

@@ -12,7 +12,7 @@ const ContactArea = () => {
                             <div className="contact text-center mb-30">
                                 <i className="fas fa-envelope"></i>
                                 <h3>{t("mail_here_key")}</h3>
-                                <a href="poliklinika-13@mail.ru">Jon Doe</a>
+                                <a href="#">pol.20@mail.ru</a>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-4">

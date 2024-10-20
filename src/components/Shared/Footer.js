@@ -31,12 +31,12 @@ const Footer = () => {
                      {/* <div className="col-xl-4 col-lg-6 col-md-6">
                         <div className="footer-widget mb-40">
                            <div className="footer-title">
-                              <h3>Departments</h3>
+                              <h3>Բաժիններ</h3>
                            </div>
                            <div className="footer-menu footer-menu-2">
                               <ul>
                                  <li><Link to="/servicesDetails">Surgery and Radiology</Link></li>
-                                 <li><Link to="/servicesDetails">Departments</Link></li>
+                                 <li><Link to="/servicesDetails">Բաժիններ</Link></li>
                                  <li><Link to="/servicesDetails">Family Medicine</Link></li>
                                  <li><Link to="/doctors">Our Doctors</Link></li>
                                  <li><Link to="/servicesDetails">Women’s Health</Link></li>

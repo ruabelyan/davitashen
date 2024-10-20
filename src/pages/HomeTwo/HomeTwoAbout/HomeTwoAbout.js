@@ -28,7 +28,7 @@ const HomeTwoAbout = () => {
                         <div className="about-text">
                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                               irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                              cupidatat non proident, sunt in culpa qui officia.</p><br/>
+                              cupidatat non proident, sunt in culpa qui officia.</p><br />
                         </div>
                         <div className="about-text-list mb-40">
                            <ul>
@@ -38,7 +38,7 @@ const HomeTwoAbout = () => {
                            </ul>
                         </div>
                         <div className="button-area">
-                           <Link to="/about" className="primary_btn btn-icon ml-0"><span>+</span>learn more</Link>
+                           <Link to="/about" className="primary_btn btn-icon ml-0"><span>+</span>Ավելին</Link>
                         </div>
                      </div>
                   </div>

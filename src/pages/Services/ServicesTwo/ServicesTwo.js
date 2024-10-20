@@ -11,7 +11,7 @@ const ServicesTwo = () => {
     return (
         <>
             <HomeHeader />
-            <CommonPageHeader title="Our Services" subtitle="Services" />
+            <CommonPageHeader title="Այլ Ծառայություններ" subtitle="Services" />
             <ServicesTwoAbout />
             <ServicesTwoArea />
             <CalculateArea />

@@ -58,7 +58,7 @@ const HomeTwoHeroSection = () => {
                                                 <img src="img/icon/caregive-option-icon-2.png" alt="" />
                                              </div>
                                              <form className="appointment-form-2" action="#">
-                                                <label htmlFor="input">select your services</label>
+                                                <label htmlFor="input">select yԱյլ Ծառայություններ</label>
                                                 <select name="lc" id="lc" className="postform">
                                                    <option defaultValue="-1">Choose A Service</option>
                                                    <option className="level-0" defaultValue="36">Chicago, United States</option>
@@ -69,7 +69,7 @@ const HomeTwoHeroSection = () => {
                                        </div>
                                        <div className="col-xl-12 mb-35">
                                           <div className="inner caregive-btn text-center">
-                                             <Link to="/contact" className="primary_btn gray-btn-border">Make Appointment</Link>
+                                             <Link to="/contact" className="primary_btn gray-btn-border">Կապ</Link>
                                           </div>
                                        </div>
                                     </div>

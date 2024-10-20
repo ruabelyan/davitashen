@@ -1,7 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 
-const HomeFiveSingleFact = ({icon,number,title}) => {
+const HomeFiveSingleFact = ({ icon, number, title }) => {
    return (
       <>
          <div className="col-lg-3 col-md-6">

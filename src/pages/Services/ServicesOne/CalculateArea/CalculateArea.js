@@ -20,7 +20,7 @@ const CalculateArea = () => {
                      </div>
                      <div className="section-button section-button-left mb-30">
                         <Link to="/contact"
-                         className="primary_btn btn-icon btn-icon-green ml-0"><span>+</span>Make Appointment</Link>
+                           className="primary_btn btn-icon btn-icon-green ml-0"><span>+</span>Կապ</Link>
                      </div>
                   </div>
                   <div className="col-xl-5 col-lg-6">
@@ -30,7 +30,7 @@ const CalculateArea = () => {
                               <div className="col-xl-12">
                                  <select defaultValue={'DEFAULT'} className="form-select select_style">
                                     <option defaultValue={'When would you like our support?'}>
-                                     When would you like our support?</option>
+                                       When would you like our support?</option>
                                     <option defaultValue={'DEFAULT'}>When would you like our support?</option>
                                  </select>
                               </div>
@@ -55,8 +55,8 @@ const CalculateArea = () => {
                               </div>
                               <div className="col-xl-12">
                                  <form className="calculate-form" action="#">
-                                    <input type="text" placeholder="Your Phone number"/>
-                                       <i className="fas fa-phone"></i>
+                                    <input type="text" placeholder="Your Phone number" />
+                                    <i className="fas fa-phone"></i>
                                  </form>
                               </div>
                            </div>

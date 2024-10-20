@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import HomeSingleTeam from '../../../../components/HomeSingleTeam/HomeSingleTeam';
 import { useTranslation } from 'react-i18next';
+import SingleTeam from '../../../../components/SingleTeam/SingleTeam';
 
 const DoctorOneTeamArea = () => {
     const { t } = useTranslation();
@@ -9,35 +10,18 @@ const DoctorOneTeamArea = () => {
     const [loading, setLoading] = useState(false);
 
     const teamMembers = [
-        { image: "1", title: "Վալերի Ադամյան" },
-        { image: "2", title: "Աննա Ասոյան" },
-        { image: "3", title: "Աստղիկ Դավթյան" },
-        { image: "4", title: "Աննա Ավանեսովա" },
-        { image: "5", title: "Գայանե Ավետիկյան" },
-        { image: "6", title: "Գոհար Բաբայան" },
-        { image: "7", title: "Մարինե Բաբայան" },
-        { image: "8", title: "Գոհար Բաբայան" },
-        { image: "9", title: "Գայանե Բարսելյանց" },
-        { image: "10", title: "Աննա Գալաջյան" },
-        { image: "11", title: "Սուսան Գևորգյան" },
-        { image: "12", title: "Էմմա Գրիգորյան" },
-        { image: "13", title: "Հասմիկ Երվանդյան" },
-        { image: "14", title: "Ջուլիետտա Զոհրաբյան" },
-        { image: "15", title: "Մարինե Իգիթյան" },
-        { image: "16", title: "Ստեփան Կսպոյան" },
-        { image: "17", title: "Հասմիկ Հովակիմյան" },
-        { image: "18", title: "Մարիամ Հովհաննիսյան" },
-        { image: "19", title: "Հասմիկ Մանուկյան" },
-        { image: "20", title: "Աննա Մելիք-Փաշայան" },
-        { image: "21", title: "Ծաղիկ Միդուրյան" },
-        { image: "22", title: "Լուսինե Միրազիզյան" },
-        { image: "23", title: "Դիանա Մկրտչյան" },
-        { image: "24", title: "Ռոմելլա Միրզոյան" },
-        { image: "25", title: "Անուշիկ Սահակյան" },
-        { image: "26", title: "Մարիետա Սարկիսովա" },
-        { image: "27", title: "Սերգեյ Գինոսյան" },
-        { image: "28", title: "Մուշեղ Ստեփանյան" },
-        { image: "29", title: "Վարվառա Հակոբյան" },
+        { image: "11", title: "Աստղիկ Մամյան", subTitle: "բաժնի վարիչ" },
+        { image: "1", title: "Նաիրա Գինոսյան", subTitle: 'lorem' },
+        { image: "2", title: "Հասմիկ Ղազարյան", subTitle: 'lorem' },
+        { image: "3", title: "Արեգնազան Իսախանյան", subTitle: 'lorem' },
+        { image: "4", title: "Աիդա Գրիգորյան", subTitle: 'lorem' },
+        { image: "5", title: "Անահիտ Մելքոնյան", subTitle: 'lorem' },
+        { image: "6", title: "Աիդա Տոնոյան", subTitle: 'lorem' },
+        { image: "7", title: "Անի Ոսկանյան", subTitle: 'lorem' },
+        { image: "8", title: "Գալինա Ավագյան", subTitle: 'lorem' },
+        { image: "9", title: "Թագուհի Հովսեփյան", subTitle: 'lorem' },
+        { image: "10", title: "Վարդուհի Տեր-Պետրոսյան", subTitle: 'lorem' },
+
     ];
 
     // Filter team members based on the search query
@@ -91,7 +75,9 @@ const DoctorOneTeamArea = () => {
                         <div className="row">
                             {filteredTeam.length > 0 ? (
                                 filteredTeam.map((member, index) => (
-                                    <HomeSingleTeam key={index} image={member.image} title={member.title} />
+                                    // <HomeSingleTeam key={index} image={member.image} title={member.title} />
+                                    <SingleTeam number={index + 1} image={member.image} name={member.title} title={member.subTitle} />
+
                                 ))
                             ) : (
                                 <div>{t('Որոնման արդյունքում տվյալներ չեն հայտնաբերվել')}</div>

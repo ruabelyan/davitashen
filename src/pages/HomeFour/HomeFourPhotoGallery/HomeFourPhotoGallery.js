@@ -47,11 +47,8 @@ const HomeFourPhotoGallery = () => {
                </div>
 
                <Slider className='h4gallery-active h4_services_slider h4_photogallery' {...settings}>
-                  <HomeFourSinglePhotoGallery customUrl="https://move2armenia.am/wp-content/uploads/2023/09/6b435c8244535b89a24e68965d1f7e4399d33701-1-600x402.jpeg" image="b" title="Our Hospitality" />
-                  <HomeFourSinglePhotoGallery customUrl='https://move2armenia.am/wp-content/uploads/2023/09/4c7bc7df4e2d7981a4f8b140fc9f91c462022327-600x402.jpeg' image="b2" title="Trusted Partner" />
-                  <HomeFourSinglePhotoGallery customUrl='https://move2armenia.am/wp-content/uploads/2023/09/8e236e9cce1f6119f843a425d872b57ebf93304b-600x402.jpeg' image="b" title="Trusted Partner" />
-                  <HomeFourSinglePhotoGallery customUrl='https://move2armenia.am/wp-content/uploads/2023/09/ba6171a6b928b918f89a62fca11d4f4d0cf6bc5d-600x402.jpeg' image="b" title="Trusted Partner" />
-                  <HomeFourSinglePhotoGallery customUrl='https://move2armenia.am/wp-content/uploads/2023/09/d96988dc7a2261903f4723f80ed6223faca448ce-600x402.jpeg' image="b" title="Trusted Partner" />
+                  <HomeFourSinglePhotoGallery customUrl="https://www.yerevan.am/uploads/media/default/0002/35/thumb_134606_default_list.jpeg" image="b" title="Our Hospitality" />
+                  <HomeFourSinglePhotoGallery customUrl='https://www.yerevan.am/uploads/media/default/0002/35/thumb_134606_default_list.jpeg' image="b" title="Trusted Partner" />
                </Slider>
 
             </div>

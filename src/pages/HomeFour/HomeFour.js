@@ -27,9 +27,8 @@ const HomeFour = () => {
             <HomeFourFact />
             {/* <HomeFourHiring /> */}
             <HomeFourHowWorks />
-            <HomeFourTestimonials />
             <HomeFourPhotoGallery />
-            <HomeFourCounterGallery />
+            {/* <HomeFourCounterGallery /> */}
             {/* <HomeFourBlogs /> */}
             {/* <HomeFourBrands /> */}
             <HomeFourFooter />

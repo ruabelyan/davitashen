@@ -18,7 +18,7 @@ const HomeThreeFactArea = () => {
                   <div className="col-xl-3 col-lg-4">
                      <div className="section-button section-button-left mb-30">
                         <Link to="/contact"
-                        className="primary_btn btn-icon btn-icon-dark ml-0"><span>+</span>Make Appointment</Link>
+                           className="primary_btn btn-icon btn-icon-dark ml-0"><span>+</span>Կապ</Link>
                      </div>
                   </div>
                </div>

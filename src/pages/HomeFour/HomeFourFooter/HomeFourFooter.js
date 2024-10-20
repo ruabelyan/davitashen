@@ -11,7 +11,8 @@ const HomeFourFooter = () => {
                      <div className="col-xl-3 col-lg-6 col-md-6">
                         <div className="footer-contact-info footer-contact-info-3 mb-40">
                            <div className="footer-logo mb-35">
-                              <Link to="/"><img src="img/logo/footer-logo-3.png" alt="" /></Link>
+                              {/* <Link to="/"><img src="img/logo/footer-logo-3.png" alt="" /></Link> */}
+                              Logo
                            </div>
                            <div className="footer-contact-content mb-25">
                               <p className="p-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
@@ -26,7 +27,7 @@ const HomeFourFooter = () => {
                         </div>
                      </div>
                      <div className="col-xl-3 col-lg-6 col-md-6">
-                        <div className="footer-widget h4footer-widget mb-40">
+                        {/* <div className="footer-widget h4footer-widget mb-40">
                            <div className="footer-title">
                               <h3>More Links</h3>
                            </div>
@@ -40,7 +41,7 @@ const HomeFourFooter = () => {
                                  <li><Link to="/servicesDetails">Dermatology</Link></li>
                               </ul>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                      {/* <div className="col-xl-3 col-lg-6 col-md-6">
                         <div className="footer-widget h4footer-widget mb-40">

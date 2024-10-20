@@ -63,22 +63,22 @@ const HomeFourServices = () => {
                         <div className="section-icon">
                            <img className="section-back-icon" src="img/section/section-back-icon.png" alt="" />
                         </div>
-                        <div className="section-text pos-rel">
-                           <h5>Departments</h5>
-                           <h1>Managed Your Heathcare Services</h1>
+                        <div className="section-text pos-rel horizontalLine">
+                           <h5>Բաժիններ</h5>
+                           <h1>Կառավարեք Ձեր առողջապահական ծառայությունները</h1>
                         </div>
-                        <div className="section-line pos-rel">
+                        {/* <div className="section-line pos-rel">
                            <img src="img/shape/section-title-line.png" alt="" />
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                </div>
                {/* <div className="row h4service-active"> */}
                <Slider className='h4service-active h4_services_slider' {...settings}>
-                  <HomeFourSingleService image="1" name="surgery" title="Body Surgery" />
-                  <HomeFourSingleService image="2" name="dental" title="Dental Fillings" />
-                  <HomeFourSingleService image="3" name="neurology" title="Neurology Sargery" />
-                  <HomeFourSingleService image="1" name="surgery" title="Body Surgery" />
+                  <HomeFourSingleService image="1" name=">>>" title="Ֆիզիոթերապևտիկ բաժին" />
+                  <HomeFourSingleService image="3" name=">>>" title="Մանկական բաժին" />
+                  <HomeFourSingleService image="1" name=">>>" title="Նյարդաբանական կաբինետ" />
+                  <HomeFourSingleService image="2" name=">>>" title="Լաբորատոր-ախտորոշիչ բաժին" />
                </Slider>
 
                {/* </div> */}

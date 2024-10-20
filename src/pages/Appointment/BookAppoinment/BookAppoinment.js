@@ -42,20 +42,20 @@ const BookAppoinment = () => {
                               </div>
                               <div className="col-xl-6 col-lg-6 col-md-6">
                                  <form className="calculate-form appointment-form-3 mb-20" action="#">
-                                    <input type="text" placeholder="Your Phone number"/>
-                                       <i className="fas fa-phone"></i>
+                                    <input type="text" placeholder="Your Phone number" />
+                                    <i className="fas fa-phone"></i>
                                  </form>
                               </div>
                               <div className="col-xl-6 col-lg-6 col-md-6">
                                  <form className="calculate-form appointment-form-3 mb-20" action="#">
-                                    <input type="text" placeholder="Select date"/>
-                                       <i className="far fa-calendar"></i>
+                                    <input type="text" placeholder="Select date" />
+                                    <i className="far fa-calendar"></i>
                                  </form>
                               </div>
                               <div className="col-xl-6 col-lg-6 col-md-6">
                                  <form className="calculate-form appointment-form-3 mb-20" action="#">
-                                    <input type="text" placeholder="Add time"/>
-                                       <i className="far fa-clock"></i>
+                                    <input type="text" placeholder="Add time" />
+                                    <i className="far fa-clock"></i>
                                  </form>
                               </div>
                               <div className="col-xl-12">

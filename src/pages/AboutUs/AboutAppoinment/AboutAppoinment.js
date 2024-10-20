@@ -34,7 +34,7 @@ const AboutAppoinment = () => {
                               </li>
                            </ul>
                         </div>
-                        <Link to="/contact" className="primary_btn mt-40">make appointment</Link>
+                        <Link to="/contact" className="primary_btn mt-40">Կապ</Link>
                      </div>
                   </div>
                </div>

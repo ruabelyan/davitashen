@@ -19,7 +19,7 @@ const AboutSingleAnalysis = () => {
                         </div>
                     </div>
                     <div className="section-button section-button-left mb-30">
-                        <Link to="/contact" className="primary_btn btn-icon ml-0"><span>+</span>Make Appointment</Link>
+                        <Link to="/contact" className="primary_btn btn-icon ml-0"><span>+</span>Կապ</Link>
                     </div>
                 </div>
                 <div className="col-xl-6 col-lg-4">

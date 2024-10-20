@@ -14,7 +14,7 @@ const PriceList = () => {
    return (
       <>
          <HomeFourNavBar />
-         <CommonPageHeader title={t("about_us_key")} subtitle={t('price_list_key')} />
+         <CommonPageHeader title={t("Գնացուցակ")} subtitle={t('price_list_key')} />
          <PriceListArea />
          <HomeFourFooter />
       </>

@@ -54,9 +54,9 @@ const HomeFourFiveNavBar = () => {
                   <div className="row">
                      <div className="col-xl-8 col-lg-12 col-md-12 d-flex align-items-center navbar__wrapper">
                         <div className="logo pos-rel">
-                           <Link to="/"><img src="img/logo/logo-4.png" alt="MediDove" /></Link>
+                           <Link to="/"><img height={70} width={200} style={{ borderRadius: 10 }} src="img/logo/logo.png" alt="MediDove" /></Link>
                         </div>
-                        <div className="header__menu header__menu4 pl-60">
+                        <div className="header__menu header__menu4 pl-10">
                            <nav id="mobile-menu">
                               <ul>
                                  <li><Link style={{ fontWeight: params.pathname === '/' ? '700' : '400' }} to="/">{t('home_key')}</Link></li>
@@ -95,7 +95,7 @@ const HomeFourFiveNavBar = () => {
                            <div className="header-button pl-50">
                               <Link to="/contact"
                                  className="primary_btn btn-icon ml-0" style={{ animationDelay: '0.6s' }} tabIndex="0">
-                                 <span>+</span>Make Appointment</Link>
+                                 <span>+</span>Կապ</Link>
                            </div>
                         </div>
                      </div>
