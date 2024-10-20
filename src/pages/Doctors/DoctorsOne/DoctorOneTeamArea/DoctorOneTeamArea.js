@@ -10,17 +10,17 @@ const DoctorOneTeamArea = () => {
     const [loading, setLoading] = useState(false);
 
     const teamMembers = [
-        { image: "11", title: "Աստղիկ Մամյան", subTitle: "բաժնի վարիչ" },
-        { image: "1", title: "Նաիրա Գինոսյան", subTitle: 'lorem' },
-        { image: "2", title: "Հասմիկ Ղազարյան", subTitle: 'lorem' },
-        { image: "3", title: "Արեգնազան Իսախանյան", subTitle: 'lorem' },
-        { image: "4", title: "Աիդա Գրիգորյան", subTitle: 'lorem' },
-        { image: "5", title: "Անահիտ Մելքոնյան", subTitle: 'lorem' },
-        { image: "6", title: "Աիդա Տոնոյան", subTitle: 'lorem' },
-        { image: "7", title: "Անի Ոսկանյան", subTitle: 'lorem' },
-        { image: "8", title: "Գալինա Ավագյան", subTitle: 'lorem' },
-        { image: "9", title: "Թագուհի Հովսեփյան", subTitle: 'lorem' },
-        { image: "10", title: "Վարդուհի Տեր-Պետրոսյան", subTitle: 'lorem' },
+        { image: "11", title: "Աստղիկ Մամյան", subTitle: "Բաժնի վարիչ-Մանկաբույժ" },
+        { image: "1", title: "Նաիրա Գինոսյան", subTitle: 'Մանկաբույժ' },
+        { image: "2", title: "Հասմիկ Ղազարյան", subTitle: 'Մանկաբարձ-Գինեկոլոգ' },
+        { image: "3", title: "Արեգնազան Իսախանյան", subTitle: 'Lաբորատորիայի բժիշկ' },
+        { image: "4", title: "Աիդա Գրիգորյան", subTitle: 'Lաբորատորիայի բժիշկ' },
+        { image: "5", title: "Անահիտ Մելքոնյան", subTitle: 'Մանկաբարձ-Գինեկոլոգ' },
+        { image: "6", title: "Աիդա Տոնոյան", subTitle: 'Մանկաբույժ' },
+        { image: "7", title: "Անի Ոսկանյան", subTitle: 'Թերապևտ' },
+        { image: "8", title: "Գալինա Ավագյան", subTitle: 'Թերապևտ' },
+        { image: "9", title: "Թագուհի Հովսեփյան", subTitle: 'Մանկաբույժ' },
+        { image: "10", title: "Վարդուհի Տեր-Պետրոսյան", subTitle: 'Մանկաբարձ-Գինեկոլոգ' },
 
     ];
 

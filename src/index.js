@@ -155,7 +155,7 @@ i18n
           "expert_doctors_key": "Փորձառու բժիշկներ",
           "problem_solve_key": "Մշտական խնդիրը լուծել",
           "award_winner_key": "Պարգևակրող",
-          "short_story_clinic_key": "Կարճ պատմություն Դավթաշեն ԱԿ-ի կլինիկայի մասին։",
+          "short_story_clinic_key": "Կարճ պատմություն Դավթաշեն ԱԿ-ի մասին։",
           "manage_healthcare_key": "Ձեր առողջապահական ծառայությունների կառավարում",
           "satisfied_patients_key": "Գոհ հիվանդներ",
           "world_awards_key": "Համաշխարհային պարգևներ",
