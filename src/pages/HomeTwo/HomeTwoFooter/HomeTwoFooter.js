@@ -10,7 +10,7 @@ const HomeTwoFooter = () => {
                      <div className="row align-items-center">
                         <div className="col-xl-4 col-lg-4 col-md-4">
                            <div className="footer-logo-2">
-                              <img style={{ borderRadius: '10px', width: '200px', height: '70px' }} src="img/logo/logo.png" alt="" />
+                              <img style={{ borderRadius: '10px', width: '200px', height: '50px' }} src="img/logo/logo.png" alt="" />
                            </div>
                         </div>
                         <div className="col-xl-2 col-lg-3 d-none d-lg-block d-xl-block">

@@ -54,7 +54,7 @@ const HomeFourFiveNavBar = () => {
                   <div className="row">
                      <div className="col-xl-8 col-lg-12 col-md-12 d-flex align-items-center navbar__wrapper">
                         <div className="logo pos-rel">
-                           <Link to="/"><img height={70} width={200} style={{ borderRadius: 10 }} src="img/logo/logo.png" alt="MediDove" /></Link>
+                           <Link to="/"><img height={50} width={240} style={{ borderRadius: 10 }} src="img/logo/logo.png" alt="MediDove" /></Link>
                         </div>
                         <div className="header__menu header__menu4 pl-10">
                            <nav id="mobile-menu">
