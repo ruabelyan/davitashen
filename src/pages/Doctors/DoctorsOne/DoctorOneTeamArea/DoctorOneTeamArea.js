@@ -10,7 +10,7 @@ const DoctorOneTeamArea = () => {
     const [loading, setLoading] = useState(false);
 
     const teamMembers = [
-        { image: "11", title: "Աստղիկ Մամյան", subTitle: "Բաժնի վարիչ-Մանկաբույժ" },
+        { image: "11", title: "Աստղիկ Մամյան", subTitle: 'Մանկական բաժնի վարիչ/մանկական նյարդաբան' },
         { image: "1", title: "Նաիրա Գինոսյան", subTitle: 'Մանկաբույժ' },
         { image: "2", title: "Հասմիկ Ղազարյան", subTitle: 'Մանկաբարձ-Գինեկոլոգ' },
         { image: "3", title: "Արեգնազան Իսախանյան", subTitle: 'Lաբորատորիայի բժիշկ' },
@@ -21,7 +21,6 @@ const DoctorOneTeamArea = () => {
         { image: "8", title: "Գալինա Ավագյան", subTitle: 'Թերապևտ' },
         { image: "9", title: "Թագուհի Հովսեփյան", subTitle: 'Մանկաբույժ' },
         { image: "10", title: "Վարդուհի Տեր-Պետրոսյան", subTitle: 'Մանկաբարձ-Գինեկոլոգ' },
-        { image: "11", title: "", subTitle: '' },
         { image: "12", title: "Ասյա Մովսիսյան", subTitle: 'ֆթիզիատր' },
         { image: "13", title: "Արուսյակ Մելիքյան", subTitle: 'ֆթիզիատր' },
         { image: "14", title: "Գոհար Խլոյան", subTitle: 'մանկական-սրտաբան' },
@@ -39,7 +38,19 @@ const DoctorOneTeamArea = () => {
         { image: "26", title: "Անժելյա Օգանովա", subTitle: 'ուռուցքաբան' },
         { image: "27", title: "Աննա Ենգոյան", subTitle: 'նյարդաբան' },
         { image: "28", title: "Աննա Հայրապետյան", subTitle: 'սոնոգրաֆիստ' },
+        { image: "29", title: "Կարինե Ղազարյան", subTitle: 'Լաբորատորիայի վարիչ' },
+        { image: "30", title: "Զարուհի Մեհրաբյան", subTitle: 'Թերապևտ' },
 
+        { image: "31", title: "Էլմիրա Անդրեասյան", subTitle: 'Թերապևտ' },
+
+        { image: "32", title: "Իրինա Մարտիրոսյան", subTitle: 'Թերապևտ' },
+        { image: "33", title: "Կարինա Մորյան", subTitle: 'Թերապևտ' },
+        { image: "34", title: "Կարինե Գասպարյան", subTitle: 'Թերապևտ' },
+        // { image: "35", title: "Մարինա Հայրապետյան", subTitle: 'Թերապևտ' },
+        { image: "36", title: "Նաիրա Գևորգյան", subTitle: 'Թերապևտ' },
+        { image: "37", title: "Նարինե Մարգարյան", subTitle: 'Թերապևտ' },
+        { image: "38", title: "Սյուզաննա Հակոբյան", subTitle: 'Թերապևտ' },
+        { image: "39", title: "Գայանե Սիմոնյան", subTitle: 'Թերապևտ' },
     ];
 
     // Filter team members based on the search query

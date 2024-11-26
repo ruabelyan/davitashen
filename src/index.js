@@ -195,7 +195,7 @@ i18n
           "neurologist_key": "Նյարդաբան",
           "consultant_key": "Խորհրդատու",
           "director_key": "Տնօրեն",
-          "bagratunyants_clinic_key": "Դավթաշեն ԱԿ",
+          "bagratunyants_clinic_key": "«Դավթաշեն» ԱԿ ՓԲԸ",
           "ruzanna_durgharyan_key": "Ռուզան Դուրգարյան",
           "shahamiryanneri_street_key": "Շահամիրյանների փող., 32 շենք",
           "allergic_issue_key": "Ալերգիկ խնդիր",

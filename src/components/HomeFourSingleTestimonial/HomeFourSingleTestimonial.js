@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HomeFourSingleTestimonial = ({image,name}) => {
+const HomeFourSingleTestimonial = ({ image, name }) => {
    return (
       <>
          <div className="col-md-6">
@@ -27,7 +27,7 @@ const HomeFourSingleTestimonial = ({image,name}) => {
                   </div>
                   <div className="h4testimonials--author__info">
                      <h5 className="f-600 theme-color">{name}</h5>
-                     <span className="f-500 pink-color">Founder, TrashTheme</span>
+                     <span className="f-500 green-color">Founder, TrashTheme</span>
                   </div>
                </div>
             </div>

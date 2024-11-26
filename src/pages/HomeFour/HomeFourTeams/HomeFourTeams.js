@@ -27,7 +27,7 @@ const HomeFourTeams = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <SingleTeam number={3} image="11" name="Աստղիկ Մամյան" title="Բաժնի վարիչ-Մանկաբույժ" />
+                        <SingleTeam number={3} image="11" name="Աստղիկ Մամյան" title="Մանկական բաժնի վարիչ/մանկական նյարդաբան" />
                         <SingleTeam number={1} image="1" name="Նաիրա Գինոսյան" title="Մանկաբույժ" />
                         <SingleTeam number={2} image="2" name="Հասմիկ Ղազարյան" title="Մանկաբարձ-Գինեկոլոգ" />
                         <SingleTeam number={3} image="3" name="Արեգնազան Իսախանյան" title="Lաբորատորիայի բժիշկ" />
