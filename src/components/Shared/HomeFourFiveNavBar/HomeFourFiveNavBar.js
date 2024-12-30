@@ -19,9 +19,9 @@ const HomeFourFiveNavBar = () => {
                   <div className="row d-flex align-items-center">
                      <div className="col-xl-6 col-lg-6">
                         <div className="header-info header-info4 p-0">
-                           <span><i className="far fa-envelope-open"></i>pol.20@mail.ru</span>
+                           <span><i className="far fa-envelope-open"></i>dmedcentre@bk.ru</span>
                            <span><i className="fal fa-phone"></i>010368241</span>
-                           <span><i className="fal fa-clock"></i>Sun - Thuseday, 09:00 am - 08:00 pm</span>
+                           <span><i className="fal fa-clock"></i>Երկ-ուրբաթ 09:00-18:00</span>
                         </div>
                      </div>
                      {/* <div className="col-xl-6 col-lg-6">

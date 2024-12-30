@@ -18,8 +18,8 @@ const HomeFourHowWorks = () => {
                            <h1>Դուք ունեք հնարավորություն</h1>
 
                         </div>
-                        <div className="section-line pos-rel">
-                           <img src="img/shape/section-title-line.png" alt="" />
+                        <div className="section-line pos-rel horizontalLine">
+                           {/* <img src="img/shape/section-title-line.png" alt="" /> */}
                         </div>
                      </div>
                   </div>

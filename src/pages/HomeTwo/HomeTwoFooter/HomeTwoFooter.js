@@ -46,7 +46,7 @@ const HomeTwoFooter = () => {
                                     </div>
                                     <div className="footer-co-content">
                                        {/* <span>do you have a question?</span> */}
-                                       <h4>pol.20@mail.ru</h4>
+                                       <h4>dmedcentre@bk.ru</h4>
                                     </div>
                                  </div>
                                  {/* <div className="f-contact-info-box fix mb-30">

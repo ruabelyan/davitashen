@@ -12,7 +12,7 @@ const ContactArea = () => {
                             <div className="contact text-center mb-30">
                                 <i className="fas fa-envelope"></i>
                                 <h3>{t("mail_here_key")}</h3>
-                                <a href="#">pol.20@mail.ru</a>
+                                <a href="#">dmedcentre@bk.ru</a>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-4">
@@ -26,7 +26,10 @@ const ContactArea = () => {
                             <div className="contact text-center mb-30">
                                 <i className="fas fa-phone"></i>
                                 <h3>{t("call_here_key")}</h3>
-                                <p>(010) 48-21-51</p>
+                                <p>Տնօրենի ընդունարան՝ 010 368241</p>
+                                <p>Բուժական հարցով փոխտնօրեն՝ 011 370039</p>
+                                <p>Մատենավարման բաժին՝ 010 369390 , 011 369390</p>
+
                             </div>
                         </div>
                     </div>

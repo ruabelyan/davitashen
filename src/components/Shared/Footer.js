@@ -17,7 +17,7 @@ const Footer = () => {
                               <Link to="/"><img style={{ maxWidth: 150 }} src="img/logo/footer-logo-3.png" alt="" /></Link>
                            </div>
                            <div className="footer-contact-content mb-25">
-                              <p>{t("bagratunyants_clinic_info_key")}</p>
+                              <p>lorem</p>
                            </div>
                            <div className="footer-emailing">
                               <ul>

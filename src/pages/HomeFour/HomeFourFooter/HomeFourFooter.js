@@ -12,14 +12,17 @@ const HomeFourFooter = () => {
                         <div className="footer-contact-info footer-contact-info-3 mb-40">
                            <div className="footer-logo mb-35">
                               {/* <Link to="/"><img src="img/logo/footer-logo-3.png" alt="" /></Link> */}
-                              Logo
+                              <img style={{ borderRadius: '10px', width: '200px', height: '50px' }} src="img/logo/logo.png" alt="" />
+
                            </div>
                            <div className="footer-contact-content mb-25">
-                              <p className="p-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                              <p className="p-0">«Դավթաշեն» առողջության կենտրոն ՓԲԸ-ի  կողմից բնակչությանը տրամադրվում
+                                 է պետության կողմից երաշխավորված անվճար արտահիվանդանոցային բժշկական
+                                 օգնություն և սպասարկում:</p>
                            </div>
                            <div className="footer-emailing">
                               <ul>
-                                 <li><i className="far fa-envelope"></i>pol.20@mail.ru</li>
+                                 <li><i className="far fa-envelope"></i>dmedcentre@bk.ru</li>
                                  {/* <li><i className="far fa-clone"></i>examplemedical.com</li> */}
                                  <li><i className="far fa-flag"></i>ք.Երևան Դավթաշեն 4-րդ թ.</li>
                               </ul>

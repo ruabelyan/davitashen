@@ -17,7 +17,7 @@ const HomeFooter = () => {
                                         </div>
                                         <div className="emmergency-call-text f-left">
                                             <h6>{t('phone_number_key')}</h6>
-                                            <span> (010) 48-21-51</span>
+                                            <span> հեռ</span>
                                         </div>
                                     </div>
                                     <div className="footer-logo mb-35">

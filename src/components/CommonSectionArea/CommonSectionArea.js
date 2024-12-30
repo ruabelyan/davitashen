@@ -18,9 +18,9 @@ const CommonSectionArea = ({ area_header }) => {
                            <h1>{t("short_story_clinic_key")}</h1>
                         </div>
                         <div className="about-text mb-50">
-                           <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                              cupidatat non proident, sunt in culpa qui officia.</p>
+                           <p>«Դավթաշեն» առողջության կենտրոն ՓԲԸ-ի  կողմից բնակչությանը տրամադրվում
+                              է պետության կողմից երաշխավորված անվճար արտահիվանդանոցային բժշկական
+                              օգնություն և սպասարկում:</p>
                         </div>
                         <div className="our-destination">
                            <div className="single-item mb-30">

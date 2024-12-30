@@ -75,10 +75,10 @@ const HomeFourServices = () => {
                </div>
                {/* <div className="row h4service-active"> */}
                <Slider className='h4service-active h4_services_slider' {...settings}>
-                  <HomeFourSingleService image="1" name=">>>" title="Ֆիզիոթերապևտիկ բաժին" />
-                  <HomeFourSingleService image="3" name=">>>" title="Մանկական բաժին" />
-                  <HomeFourSingleService image="1" name=">>>" title="Նյարդաբանական կաբինետ" />
-                  <HomeFourSingleService image="2" name=">>>" title="Լաբորատոր-ախտորոշիչ բաժին" />
+                  <HomeFourSingleService image="8" name=">>>" title="Ֆիզիոթերապևտիկ բաժին" />
+                  <HomeFourSingleService image="0" name=">>>" title="Մանկական բաժին" />
+                  <HomeFourSingleService image="0" name=">>>" title="Նյարդաբանական կաբինետ" />
+                  <HomeFourSingleService image="17" name=">>>" title="Լաբորատոր-ախտորոշիչ բաժին" />
                </Slider>
 
                {/* </div> */}

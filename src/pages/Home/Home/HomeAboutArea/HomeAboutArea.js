@@ -27,7 +27,7 @@ const HomeAboutArea = () => {
                            <h1>Մեր պատմությունը</h1>
                         </div>
                         <div className="about-text">
-                           <p> Երևանի «Բագրատունյաց» առողջության կենտրոնի կողմից բնակչությանը տրամադրվում է պետության կողմից երաշխավորված անվճար արտահիվանդանոցային բժշկական օգնություն և սպասարկում՝  համաձայն ՀՀ կառավուրաթյան 318-Ն որոշման:</p>
+                           <p>lorem</p>
                         </div>
                         <div className="about-author d-flex align-items-center">
                            <div className="author-ava">

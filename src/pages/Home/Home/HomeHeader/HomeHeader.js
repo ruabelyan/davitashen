@@ -23,9 +23,9 @@ const HomeHeader = ({ logo }) => {
                      <div className="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-7 offset-md-1">
                         <div className="header-info">
                            <a href="tel:+37410482151">
-                              <span style={{ color: "white" }}><i class="fas fa-phone"></i> (010) 48-21-51</span>
+                              <span style={{ color: "white" }}><i class="fas fa-phone"></i>հեռ</span>
                            </a>
-                           {/* <span style={{ color: 'white' }}><i className="fas fa-phone"></i> (010) 48-21-51</span> */}
+                           {/* <span style={{ color: 'white' }}><i className="fas fa-phone"></i> հեռ</span> */}
 
                            <a href="mailto: poliklinika-13@mail.ru">
                               <span style={{ color: 'white' }}><i className="fas fa-envelope"></i> poliklinika-13@mail.ru</span>

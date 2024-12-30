@@ -51,6 +51,8 @@ const DoctorOneTeamArea = () => {
         { image: "37", title: "Նարինե Մարգարյան", subTitle: 'Թերապևտ' },
         { image: "38", title: "Սյուզաննա Հակոբյան", subTitle: 'Թերապևտ' },
         { image: "39", title: "Գայանե Սիմոնյան", subTitle: 'Թերապևտ' },
+        { image: "40", title: "Ժասմեն Խաչատրյան", subTitle: 'ԲՓՀ նախագահ' },
+        { image: "41", title: "Հասմիկ Ղազարյան", subTitle: 'Բուժական գծով փոխտնօրեն' },
     ];
 
     // Filter team members based on the search query
