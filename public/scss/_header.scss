@@ -119,7 +119,7 @@
      -ms-transition: all 0.3s ease-out 0s;
      -o-transition: all 0.3s ease-out 0s;
      transition: all 0.3s ease-out 0s;
-     border-top: 5px solid #952d3e;
+     border-top: 5px solid #8fb569;
      box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
      z-index: 99;
 }
@@ -143,7 +143,7 @@
      padding: 11px 15px;
 }
  .header__menu.header-menu-white ul li ul.submenu li:hover > a {
-     color: #952d3e;
+     color: #8fb569;
 }
  .header__menu ul li:hover ul.submenu {
      opacity: 1;
@@ -249,7 +249,7 @@
 }
  .header-lang-list li a:hover{
      display: block;
-     color: #952d3e;
+     color: #8fb569;
 }
 /* Menu Search -------------------------------------------------------*/
  .nav-search {

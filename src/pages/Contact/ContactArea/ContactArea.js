@@ -19,7 +19,7 @@ const ContactArea = () => {
                             <div className="contact text-center mb-30">
                                 <i className="fas fa-map-marker-alt"></i>
                                 <h3>{t("visit_here_key")}</h3>
-                                <p>{t("shahamiryanneri_street_key")}</p>
+                                <p>{t("street_key")}</p>
                             </div>
                         </div>
                         <div className="col-xl-4  col-lg-4 col-md-4 ">

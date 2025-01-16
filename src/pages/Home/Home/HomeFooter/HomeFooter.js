@@ -31,7 +31,7 @@ const HomeFooter = () => {
                                         <ul>
                                             <li><i className="far fa-envelope"></i>poliklinika-13@mail.ru</li>
                                             {/* <li><i className="far fa-clone"></i>examplemedical.com</li> */}
-                                            <li><i className="far fa-flag"></i>{t("shahamiryanneri_street_key")}</li>
+                                            <li><i className="far fa-flag"></i>{t("street_key")}</li>
                                         </ul>
                                     </div>
                                 </div>
